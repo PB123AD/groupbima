@@ -656,7 +656,7 @@ section {
 
 .why-us .content p {
   margin-bottom: 30px;
-  text-align: justify;
+  text-align:center;
 }
 
 .why-us .content .more-btn {
