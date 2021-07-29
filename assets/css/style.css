@@ -656,7 +656,7 @@ section {
 
 .why-us .content p {
   margin-bottom: 30px;
-  text-align:center;
+  text-align:left;
 }
 
 .why-us .content .more-btn {
@@ -701,7 +701,7 @@ section {
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
-  text-align: justify;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -881,34 +881,39 @@ section {
   padding: 70px 0 60px;
 }
 
-.counts .count-box {
+.counts .count-items {
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
   text-align: center;
   background: #fff;
 }
+.count-items h2{
+  font-weight: bold;
+  font-size: 42px;
+  color: #082744;
 
-.counts .count-box i {
+}
+.count p{
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+.counts  i {
   position: absolute;
-  top: -25px;
+  top: -100px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 50px;
   background: #1977cc;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
 }
 
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #082744;
-}
-
-.counts .count-box p {
+.counts .count-box
+ p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
