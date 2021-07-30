@@ -900,7 +900,7 @@ section {
   font-size: 40px;
 }
 
-.counts  i {
+.counts .count-items i {
   position: absolute;
   top: -100px;
   left: 50%;
