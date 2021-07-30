@@ -888,12 +888,19 @@ section {
   text-align: center;
   background: #fff;
 }
-.count-box h2{
-  font-weight: bold;
-  font-size: 42px;
-  color: #082744;
 
+.counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #1977cc;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
 }
+
 .counts .count-box span {
   font-size: 36px;
   display: block;
@@ -901,20 +908,7 @@ section {
   color: #082744;
 }
 
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 10px;
-  background: #1977cc;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
-}
-
-.counts .count-box
- p {
+.counts .count-box p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
