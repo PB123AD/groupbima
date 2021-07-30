@@ -894,7 +894,12 @@ section {
   color: #082744;
 
 }
-
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #082744;
+}
 
 .counts .count-box i {
   position: absolute;
@@ -905,7 +910,7 @@ section {
   background: #1977cc;
   padding: 12px;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .counts .count-box
