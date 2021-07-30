@@ -881,28 +881,24 @@ section {
   padding: 70px 0 60px;
 }
 
-.counts .count-items {
+.counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
   text-align: center;
   background: #fff;
 }
-.count-items h2{
+.count-box h2{
   font-weight: bold;
   font-size: 42px;
   color: #082744;
 
 }
-.count p{
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 40px;
-}
 
-.counts .count-items i {
+
+.counts .count-box i {
   position: absolute;
-  top: -100px;
+  top: -25px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 50px;
